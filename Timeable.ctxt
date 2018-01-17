@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=startTime\ stopTime
+comment0.target=void\ setTimes(Time,\ Time)
+comment0.text=\r\n\ Sets\ the\ start\ and\ stop\ times.\r\n\ @param\ startTime\r\n\ @param\ stopTime\r\n
+comment1.params=
+comment1.target=void\ unSetTimes()
+comment1.text=\r\n\ A\ method\ which\ allows\ the\ times\ to\ be\ unset\ (probably\ set\ to\ null)\r\n
+comment2.params=
+comment2.target=Time\ getStartTime()
+comment2.text=\r\n\ Get\ the\ start\ time\ of\ this\ object\r\n\ @return\ the\ start\ time\r\n
+comment3.params=
+comment3.target=Time\ getStopTime()
+comment3.text=\r\n\r\n\ @return\ the\ stop\ time\r\n
+numComments=4

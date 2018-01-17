@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=title
+comment0.target=HouseAdmin(java.lang.String)
+comment0.text=\r\n\ HouseAdmin\ Constructor\r\n\r\n\ @param\ title\ A\ parameter\r\n
+comment1.params=
+comment1.target=void\ setupHouse()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
