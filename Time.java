@@ -27,6 +27,7 @@ public class Time{
     public Time (int day, int month, int year, int hour, int minute){
 
         this.day = day;
+        this.sec = sec;
         this.month = month;
         this.year = year;
         this.hour = hour;
