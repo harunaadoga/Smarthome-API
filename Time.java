@@ -17,6 +17,7 @@ public class Time{
     private int year;
         private int hour;
         private int minute;
+        private int sec;
 
 
     /**
