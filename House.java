@@ -8,6 +8,7 @@ public class House
 {
    
     private String address;
+    private String otherAddress;
    
     
     ArrayList <ElectricalAppliance > appliance = new ArrayList <ElectricalAppliance> ();
