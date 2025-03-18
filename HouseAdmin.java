@@ -1,5 +1,5 @@
 /**
- * Adoga Haruna. SRN: 13000236
+ * Adoga Haruna. 
  */
 import javax.swing.JOptionPane;
 import javax.swing.*;

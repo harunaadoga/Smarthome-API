@@ -1,31 +1,20 @@
 /**
- * Adoga Haruna. SRN: 13000236
+ * Adoga Haruna.
  */
 
 import java.util.ArrayList;  // to enable us use the array list in our program
-
 public class House
 {
-   
     private String address;
     private String otherAddress;
-   
-    
     ArrayList <ElectricalAppliance > appliance = new ArrayList <ElectricalAppliance> ();
-  
-  
     /**
      * House class constructor
      */
    
     public House (String address){
     this.address = address;
-    
-    
     }
-    
-    
-   
     /**
      * Method that adds appliance to the house
      */
@@ -78,8 +67,6 @@ public class House
                 e.setStatus(true);
             
             }}
-        
-        
         /**
          * Method turnOnApp
          *
@@ -87,13 +74,8 @@ public class House
          */
         public void turnOnApp (String app) {
             ElectricalAppliance electapp = findAppliance(app);
-         
             electapp.setStatus(true);
-        
         }
-        
-      
-        
         /**
          * Method setTimeableLights
          *
@@ -102,35 +84,18 @@ public class House
          * @param stopTime A parameter
          */
         public void setTimeableLights (Time currentTime, Time startTime, Time stopTime) 
-        
-        
         {
-            
         for (int i = 0 ; i <appliance.size(); i ++)
         {
             if (appliance.get(i) instanceof TimeableLight)
             {
-            
-            
             TimeableLight timelight =(TimeableLight) appliance.get(i);
-            
             timelight.setTimes(startTime, stopTime);
-            
             timelight.setCurrentTime(currentTime);
-            
             appliance.set(i, timelight);
-            
-            
-            }
-           
-            
+            }   
         }
-        
-        
-        
         }
-        
-        
         /**
          * A toString method to display the house address and the details of the electrical appliance
          */
@@ -141,14 +106,9 @@ public class House
             for (int i = 0; i < appliance.size() ; i ++)
             {
             showappliance = showappliance + appliance.get(i).toString();
-            
-            
-       
             }
-            
         return "the address of the house is : " + address + " the appliances in the house are : " + showappliance;
         }
-        
     }
     
     
@@ -156,4 +116,3 @@ public class House
     
     
     
-

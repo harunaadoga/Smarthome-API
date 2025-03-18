@@ -18,8 +18,6 @@ public class Time{
         private int hour;
         private int minute;
         private int sec;
-
-
     /**
      *Construct new Time with day as int, month as int, year as int, hour and minutes
      * as int.  Note that this class is very basic and does not check for "impossible"

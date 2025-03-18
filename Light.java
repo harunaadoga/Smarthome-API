@@ -1,5 +1,5 @@
 /**
-Adoga Haruna. SRN: 13000236
+Adoga Haruna
  */
 public class Light extends ElectricalAppliance 
 {

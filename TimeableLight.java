@@ -75,17 +75,13 @@ public class TimeableLight extends Light implements Timeable
            {
                super.setStatus(false);     
             }
-           
         }
-        
          public String toString() 
     {
     return super.toString() + "the start time is : " + startTime + ", stop time is : " + stopTime +
     " current time is : " + currentTime;
     
     }
-    
-    
     }
     
     

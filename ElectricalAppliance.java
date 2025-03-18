@@ -12,8 +12,7 @@ public abstract class ElectricalAppliance
     private int rating;
     private String location;
     private boolean onOrOff;
-    
-   
+
     /**
      * ElectricalAppliance Constructor
      *
